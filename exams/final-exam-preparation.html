@@ -1,0 +1,628 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Exam Review Exercises &#8212; GVSU CIS 635 - KDD</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!-- 
+    this give us a css class that will be invisible only if js is disabled 
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=26a4bc78f4c0ddb94549"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549" />
+
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'exams/final-exam-preparation';</script>
+    <link rel="icon" href="https://www.gvsu.edu/cms4/asset/94807988-C47A-2A7B-05628C365AC3C2FA/gvsu_avatar_3[1678817053].jpg"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../syllabus.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.jpg" class="logo__image only-light" alt="GVSU CIS 635 - KDD - Home"/>
+    <img src="../_static/logo.jpg" class="logo__image only-dark pst-js-only" alt="GVSU CIS 635 - KDD - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../syllabus.html">
+                    Welcome
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Sample Code</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../samples/python.html">Introduction to Python</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/exams/final-exam-preparation.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Exam Review Exercises</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="exam-review-exercises">
+<h1>Exam Review Exercises<a class="headerlink" href="#exam-review-exercises" title="Link to this heading">#</a></h1>
+<ol class="arabic">
+<li><p>Consider a dataset D containing two classes, A and B, with the following distribution:</p>
+<ul class="simple">
+<li><p>40 instances belong to class A</p></li>
+<li><p>60 instances belong to class B.</p></li>
+</ul>
+<p>Calculate the Gini impurity for the dataset D:</p>
+<div class="math notranslate nohighlight">
+\[Gini(D) = ... \]</div>
+<!-- 1 - (40/100)^2 - (60/100)^2 = 0.48 -->
+</li>
+<li><p>Given the following dataset with two categorical attributes (Weather and Time of Day) and a class label, use the Naïve Bayes classifier to predict the class label of a new sample (Weather = Sunny, Time of Day = Evening).</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Weather</strong></p></th>
+<th class="head"><p><strong>Time of Day</strong></p></th>
+<th class="head"><p><strong>Class Label (Go Outside)</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Sunny</p></td>
+<td><p>Morning</p></td>
+<td><p>Yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Rainy</p></td>
+<td><p>Afternoon</p></td>
+<td><p>No</p></td>
+</tr>
+<tr class="row-even"><td><p>Cloudy</p></td>
+<td><p>Evening</p></td>
+<td><p>Yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Sunny</p></td>
+<td><p>Evening</p></td>
+<td><p>No</p></td>
+</tr>
+<tr class="row-even"><td><p>Cloudy</p></td>
+<td><p>Morning</p></td>
+<td><p>Yes</p></td>
+</tr>
+<tr class="row-odd"><td><p>Rainy</p></td>
+<td><p>Night</p></td>
+<td><p>No</p></td>
+</tr>
+<tr class="row-even"><td><p>Sunny</p></td>
+<td><p>Afternoon</p></td>
+<td><p>Yes</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- $$
+P_{Yes} &= \frac{4}{7}, P_{No} = \frac{3}{7}\\
+P(Sunny|Yes) &= \frac{2}{4}, P(Evening|Yes) = \frac{1}{4}\\
+P(Sunny|No) &= \frac{1}{3}, P(Evening|No) = \frac{1}{3}\\
+P(Yes|Sunny,Evening) &= P(Sunny|Yes) \times P(Evening|Yes) \times P_{Yes} \\
+&= \frac{2}{4} \times \frac{1}{4} \times \frac{4}{7} = \frac{1}{14}\\
+P(No |Sunny,Evening) &= P(Sunny|No) \times P(Evening|No) \times P_{No} \\
+&= \frac{1}{3} \times \frac{1}{3} \times \frac{3}{7} = \frac{1}{21}\\
+$$ -->
+</li>
+<li><p>Given the following confusion matrix, calculate Precision, Recall, and F1 Score.</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p>Predicted Positive</p></th>
+<th class="head"><p>Predicted Negative</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Actual Positive</p></td>
+<td><p>20</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-odd"><td><p>Actual Negative</p></td>
+<td><p>10</p></td>
+<td><p>30</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li><p>A probabilistic classifier has been applied to a test set of 10 tuples. Below are the probability values of these tuples belonging to the positive class, sorted in decreasing order. Based on these probabilities and the actual class labels, calculate the True Positive Rate (TPR) and False Positive Rate (FPR) at each threshold, and then sketch the ROC curve.</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Probability</p></th>
+<th class="head"><p>Actual Class</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>0.90</p></td>
+<td><p>Positive</p></td>
+</tr>
+<tr class="row-odd"><td><p>0.85</p></td>
+<td><p>Positive</p></td>
+</tr>
+<tr class="row-even"><td><p>0.80</p></td>
+<td><p>Negative</p></td>
+</tr>
+<tr class="row-odd"><td><p>0.75</p></td>
+<td><p>Positive</p></td>
+</tr>
+<tr class="row-even"><td><p>0.70</p></td>
+<td><p>Negative</p></td>
+</tr>
+<tr class="row-odd"><td><p>0.65</p></td>
+<td><p>Negative</p></td>
+</tr>
+<tr class="row-even"><td><p>0.60</p></td>
+<td><p>Positive</p></td>
+</tr>
+<tr class="row-odd"><td><p>0.55</p></td>
+<td><p>Negative</p></td>
+</tr>
+<tr class="row-even"><td><p>0.50</p></td>
+<td><p>Positive</p></td>
+</tr>
+<tr class="row-odd"><td><p>0.45</p></td>
+<td><p>Negative</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li><p>Given a dataset with 5 tuples {A, B, C, D, E} and their distance matrix as shown below, perform two rounds of Agglomerative Clustering.</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p></p></th>
+<th class="head"><p><strong>A</strong></p></th>
+<th class="head"><p><strong>B</strong></p></th>
+<th class="head"><p><strong>C</strong></p></th>
+<th class="head"><p><strong>D</strong></p></th>
+<th class="head"><p><strong>E</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>A</strong></p></td>
+<td><p>0.00</p></td>
+<td><p>2.24</p></td>
+<td><p>4.12</p></td>
+<td><p>7.07</p></td>
+<td><p>7.00</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>B</strong></p></td>
+<td><p>2.24</p></td>
+<td><p>0.00</p></td>
+<td><p>3.16</p></td>
+<td><p>5.00</p></td>
+<td><p>6.32</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>C</strong></p></td>
+<td><p>4.12</p></td>
+<td><p>3.16</p></td>
+<td><p>0.00</p></td>
+<td><p>4.12</p></td>
+<td><p>3.26</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>D</strong></p></td>
+<td><p>7.07</p></td>
+<td><p>5.00</p></td>
+<td><p>4.12</p></td>
+<td><p>0.00</p></td>
+<td><p>5.39</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>E</strong></p></td>
+<td><p>7.00</p></td>
+<td><p>6.32</p></td>
+<td><p>3.26</p></td>
+<td><p>5.39</p></td>
+<td><p>0.00</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<ul>
+<li><p><strong>Round 1:</strong> Merge the closest pair A and B into a cluster.</p></li>
+<li><p><strong>Round 2:</strong> Apply Single Linkage, Average Linkage, and Complete Linkage to determine the next merge. For each linkage method, identify the next cluster merge and explain how the choice of linkage affects the clustering result.</p>
+<!-- **Single Linkage**:
+<ul class="simple">
+<li><p>After merging A and B, we calculate the minimum distance between the new cluster (AB) and other clusters.</p></li>
+<li><p>Distances: (AB)-C: 3.16, (AB)-D: 5, (AB)-E: 6.32, CD: 4.12. CE:3.26, DE: 5.39</p></li>
+<li><p>Result: Merge (AB) and C.</p></li>
+<li><p><strong>Average Linkage</strong>:</p>
+<ul>
+<li><p>For average linkage, calculate the average distance between the new cluster (AB) and other clusters.</p></li>
+<li><p>Distances: (AB)-C: (4.12 + 3.16) / 2 = 3.64, (AB)-D: (7.07 + 5.00) /2 =6.035, (AB)-E: (7.00 + 6.32)/2 = 6.66, CD: 4.12. CE:3.26, DE: 5.39</p></li>
+<li><p>Result: Merge C and E.</p></li>
+</ul>
+</li>
+<li><p><strong>Complete Linkage</strong>:</p>
+<ul>
+<li><p>For complete linkage, calculate the maximum distance between the new cluster (AB) and other clusters.</p></li>
+<li><p>Distances: (AB)-C: 4.12, (AB)-D: 7.07, (AB)-E: 7.00, CD: 4.12. CE:3.26, DE: 5.39</p></li>
+<li><p>Result: Merge C and E. –&gt;</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Consider a Convolutional Neural Network (CNN) layer that receives an input volume of size 128x65x3 (width x height x depth). If this layer uses 12 filters of size 5x5x3 with a stride of 3 and padding 3.</p>
+<ul class="simple">
+<li><p>Calculate the output volume size of this layer.</p></li>
+<li><p>The number of parameters in this layer.</p></li>
+</ul>
+<!-- - Calculate the output volume size of this layer.
+<div class="math notranslate nohighlight">
+\[\begin{split}
+     &amp;\frac{128+6-5}{3}+1 = 44\\
+     &amp;\frac{65+6-5}{3}+1 = 23\\
+     \end{split}\]</div>
+<p>output volume size = <span class="math notranslate nohighlight">\(44\times 23\times 12\)</span>.</p>
+<ul>
+<li><p>Calculate the number of parameters in this layer, considering both the weights and biases.</p>
+<p>number of parameters = <span class="math notranslate nohighlight">\(\left((5\times 5\times 3)+1\right)\times 12 = 912\)</span> –&gt;</p>
+</li>
+</ul>
+</li>
+</ol>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./exams"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Dr.Yong Zhuang
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2025.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

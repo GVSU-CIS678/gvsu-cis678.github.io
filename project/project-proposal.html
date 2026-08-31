@@ -1,0 +1,605 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Project Proposal Guide &#8212; GVSU CIS 635 - KDD</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!-- 
+    this give us a css class that will be invisible only if js is disabled 
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=26a4bc78f4c0ddb94549"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549" />
+
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'project/project-proposal';</script>
+    <link rel="icon" href="https://www.gvsu.edu/cms4/asset/94807988-C47A-2A7B-05628C365AC3C2FA/gvsu_avatar_3[1678817053].jpg"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../syllabus.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.jpg" class="logo__image only-light" alt="GVSU CIS 635 - KDD - Home"/>
+    <img src="../_static/logo.jpg" class="logo__image only-dark pst-js-only" alt="GVSU CIS 635 - KDD - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../syllabus.html">
+                    Welcome
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Sample Code</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../samples/python.html">Introduction to Python</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/project/project-proposal.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Project Proposal Guide</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#expectations-for-the-project">Expectations for the Project</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#guidelines-for-the-proposal">Guidelines for the Proposal</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#overview-of-the-project">Overview of the Project</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#related-work">Related Work</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-plan">Data plan</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#implementation-plan">Implementation plan</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#evaluation-plan">Evaluation plan</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#plan-for-group-collaboration">Plan for group collaboration</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#timeline">Timeline</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#recommended-tools">Recommended Tools</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#grading">Grading</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#delivery">Delivery</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="project-proposal-guide">
+<h1>Project Proposal Guide<a class="headerlink" href="#project-proposal-guide" title="Link to this heading">#</a></h1>
+<p>Your project proposal is essential for two reasons:</p>
+<ol class="arabic simple">
+<li><p>It aids you in devising a concrete plan for your project.</p></li>
+<li><p>It allows me to gauge if your project meets the expectations and to guide you in refining it if required.</p></li>
+</ol>
+<section id="expectations-for-the-project">
+<h2>Expectations for the Project<a class="headerlink" href="#expectations-for-the-project" title="Link to this heading">#</a></h2>
+<p>While choosing a domain for your data mining application and crafting a data mining pipeline for a specific issue, you have the freedom to be innovative. The application area, the techniques you decide on, and your project’s results are all determined by your proposal.</p>
+<p>However, I have set a few expectations for every project:</p>
+<ul class="simple">
+<li><p>You should design and execute a full data mining pipeline from its inception to its conclusion.</p></li>
+<li><p>Your project should be well-researched, fitting, and feasible within the set timeframe. If uncertain, please discuss with me during office hours.</p></li>
+<li><p>You can collect your own dataset or use a publicly available dataset.</p></li>
+<li><p>Some method of evaluating data mining strategies is needed, such as:</p>
+<ul>
+<li><p>Running a concise study comparing your strategy with another,</p></li>
+<li><p>Assessing the accuracy of your model by holding back validation data,</p></li>
+<li><p>Assessing the robustness of your model,</p></li>
+<li><p>Etc.</p></li>
+</ul>
+</li>
+<li><p>I expect you to effectively communicate your methodology and findings in a final report.</p>
+<ul>
+<li><p>This will take the form of a well-organized and well-written explanations with publication-quality visualzations.</p></li>
+</ul>
+</li>
+</ul>
+<p>I will consider the overall difficulty of your project when determining whether or not it is sufficient (or infeasible) for your final project. For example, if your are collecting your own data, your pipeline will need to be simpler because of the extra time and effort requried for data collection.</p>
+</section>
+<section id="guidelines-for-the-proposal">
+<h2>Guidelines for the Proposal<a class="headerlink" href="#guidelines-for-the-proposal" title="Link to this heading">#</a></h2>
+<p>Your project proposal should be under 3 pages, be formatted under the following headings, and address each of the following points:</p>
+<section id="overview-of-the-project">
+<h3>Overview of the Project<a class="headerlink" href="#overview-of-the-project" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Present a concise overview of your project.</p></li>
+<li><p>List all the team members.</p></li>
+<li><p>Specify the domain of application you’re delving into.</p></li>
+<li><p>Highlight the particular issue you’re addressing.</p></li>
+<li><p>Offer a brief insight into your approach.</p></li>
+<li><p>Enumerate your reasons and motivations.</p></li>
+<li><p>Outline the goals you aspire to achieve with this project.</p></li>
+</ul>
+</section>
+<section id="related-work">
+<h3>Related Work<a class="headerlink" href="#related-work" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Have similar projects been conducted in the domain you’re proposing? If yes, how does your project differentiate from them?</p></li>
+</ul>
+</section>
+<section id="data-plan">
+<h3>Data plan<a class="headerlink" href="#data-plan" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>What’s the data you intend to use for this project?</p></li>
+<li><p>If you’re considering gathering data on your own, outline the process.</p></li>
+<li><p>In case you’re using a pre-existing dataset, mention which one and explain why you chose it. Who gathered this data and for what primary objective?</p></li>
+<li><p>What proprocessing do you expect to need to perform on your data?</p></li>
+</ul>
+</section>
+<section id="implementation-plan">
+<h3>Implementation plan<a class="headerlink" href="#implementation-plan" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Describe your proposed data mining pipeline</p></li>
+<li><p>How will you implement your data mining pipeline?</p></li>
+<li><p>What components do you plan to use existing software/libraries for? Which software/libraries do you plan to use?</p></li>
+</ul>
+</section>
+<section id="evaluation-plan">
+<h3>Evaluation plan<a class="headerlink" href="#evaluation-plan" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>How do you plan to evaluate your data mining algorithm?</p></li>
+<li><p>Provide a broad overview of how you plan to evaluate your approach. How will you measure success? Will you compare to an alternative method? Measure accuracy with a ground truth testing set?</p></li>
+</ul>
+</section>
+<section id="plan-for-group-collaboration">
+<h3>Plan for group collaboration<a class="headerlink" href="#plan-for-group-collaboration" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>What is your plan for collaborating as a group? Do you plan to meet regularly in-person, over zoom, or coordinate asynchronously on a messaging application like discord?</p></li>
+<li><p>How do you plan to collaboratively implement your data mining pipeline? How will you manage your code and your data?</p></li>
+</ul>
+</section>
+<section id="timeline">
+<h3>Timeline<a class="headerlink" href="#timeline" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Outline your week-by-week goals for completing your project by the final report deadline</p></li>
+<li><p>Feel free to communicate this timeline as a bulleted list, a table, etc.</p></li>
+</ul>
+</section>
+<section id="references">
+<h3>References<a class="headerlink" href="#references" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>List your references.</p></li>
+</ul>
+<p>Include a project title and the members of your group as part of your proposal. Your proposal should be organized into clearly labeled sections (one to address each of the eight categories above). Each section should be written in paragraph form (with the exception of the references and the timeline section where you may opt to use a list or a table). Your proposal will be graded on the quality of your writing as well as your answers to the previously listed prompts.</p>
+<p>It should be evident that your group has thoroughly researched the area and formulated a plan to achieve your goals. I recognize that things may change during the course of the project, but I’m looking here to make sure you have a solid initial plan. Any significant project like this requires significant prework before implementation.</p>
+</section>
+<section id="recommended-tools">
+<h3>Recommended Tools<a class="headerlink" href="#recommended-tools" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.overleaf.com/"><strong>Overleaf</strong></a>: A powerful and collaborative LaTeX editor, perfect for writing technical and academic documents. You can get started by exploring their comprehensive <a class="reference external" href="https://www.overleaf.com/learn">learning resources</a>. To prepare your proposal, you may also use the official <a class="reference external" href="https://www.overleaf.com/latex/templates/ieee-conference-template/grfzhhncsfqn">IEEE Conference Template</a> directly in Overleaf for a professional and compliant format.</p></li>
+</ul>
+</section>
+<section id="grading">
+<h3>Grading<a class="headerlink" href="#grading" title="Link to this heading">#</a></h3>
+<p>The proposal will be graded as follows:</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Item</p></th>
+<th class="head"><p>Points</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Project overview thoroughly addresses all required points</p></td>
+<td><p>10</p></td>
+</tr>
+<tr class="row-odd"><td><p>Related work section comprehensively addresses required points and demonstrates a clear understanding of the field</p></td>
+<td><p>15</p></td>
+</tr>
+<tr class="row-even"><td><p>Data plan section is complete, addressing all required points in a clear and logical manner</p></td>
+<td><p>10</p></td>
+</tr>
+<tr class="row-odd"><td><p>Implementation plan and timeline sections are well-developed, detailing a feasible and organized approach</p></td>
+<td><p>25</p></td>
+</tr>
+<tr class="row-even"><td><p>Evaluation plan and group collaboration plan are clearly articulated and address all required points</p></td>
+<td><p>20</p></td>
+</tr>
+<tr class="row-odd"><td><p>References are properly cited, and the related work section includes all relevant sources</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-even"><td><p>The proposal is well-formatted, with clear, formal, and precise writing throughout</p></td>
+<td><p>15</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>I reserve the right to award flex points for exemplary work in any areas of this project.</p>
+</section>
+<section id="delivery">
+<h3>Delivery<a class="headerlink" href="#delivery" title="Link to this heading">#</a></h3>
+<p>Please submit your project proposal (in PDF format) to <strong>Blackboard</strong> and your team <strong>GitHub repository</strong>. Only one submission is required per team.</p>
+<p>All components of your final project are subject to GVSU and the School of Computing’s academic honesty policies. Violations of these policies may result in failure from the course. You will recieve no credit for a proposal that violates the academic honesty policy in any way.</p>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./project"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#expectations-for-the-project">Expectations for the Project</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#guidelines-for-the-proposal">Guidelines for the Proposal</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#overview-of-the-project">Overview of the Project</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#related-work">Related Work</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-plan">Data plan</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#implementation-plan">Implementation plan</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#evaluation-plan">Evaluation plan</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#plan-for-group-collaboration">Plan for group collaboration</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#timeline">Timeline</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#recommended-tools">Recommended Tools</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#grading">Grading</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#delivery">Delivery</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Dr.Yong Zhuang
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2025.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
