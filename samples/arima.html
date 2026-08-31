@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Time series forecast from scratch &#8212; GVSU CIS 635 - KDD</title>
+    <title>Time series forecast from scratch &#8212; GVSU CIS 678 - Machine Learning</title>
   
   
   
@@ -34,7 +34,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
   
@@ -147,8 +147,8 @@
       
     
     
-    <img src="../_static/logo.jpg" class="logo__image only-light" alt="GVSU CIS 635 - KDD - Home"/>
-    <img src="../_static/logo.jpg" class="logo__image only-dark pst-js-only" alt="GVSU CIS 635 - KDD - Home"/>
+    <img src="../_static/logo.jpg" class="logo__image only-light" alt="GVSU CIS 678 - Machine Learning - Home"/>
+    <img src="../_static/logo.jpg" class="logo__image only-dark pst-js-only" alt="GVSU CIS 678 - Machine Learning - Home"/>
   
   
 </a></div>
@@ -226,7 +226,7 @@
       
       
       
-      <li><a href="https://colab.research.google.com/github/GVSU-CIS635/gvsu-cis635.github.io/blob/main/book/samples/arima.ipynb" target="_blank"
+      <li><a href="https://colab.research.google.com/github/GVSU-CIS678/gvsu-CIS678.github.io/blob/main/book/samples/arima.ipynb" target="_blank"
    class="btn btn-sm dropdown-item"
    title="Launch on Colab"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -418,7 +418,7 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/tmp/ipykernel_70240/2228116854.py:2: FutureWarning: The argument &#39;date_parser&#39; is deprecated and will be removed in a future version. Please use &#39;date_format&#39; instead, or read your data in as &#39;object&#39; dtype and then call &#39;to_datetime&#39;.
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/tmp/ipykernel_31589/2228116854.py:2: FutureWarning: The argument &#39;date_parser&#39; is deprecated and will be removed in a future version. Please use &#39;date_format&#39; instead, or read your data in as &#39;object&#39; dtype and then call &#39;to_datetime&#39;.
   data = pd.read_csv(
 </pre></div>
 </div>
@@ -484,7 +484,7 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x7825a8791850&gt;]
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x772645d39cd0&gt;]
 </pre></div>
 </div>
 <img alt="../_images/54a97671132f2258307dde86d4b53efffd7fbb2acb181eec82430da53699260d.png" src="../_images/54a97671132f2258307dde86d4b53efffd7fbb2acb181eec82430da53699260d.png" />
@@ -617,7 +617,7 @@ Data has a unit root and is non-stationary
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x782597e4d6d0&gt;]
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x772634ffa490&gt;]
 </pre></div>
 </div>
 <img alt="../_images/b820e1ffc94cb16a922f19a48a8a927e9e1b51d876d8268323c95acd861e530a.png" src="../_images/b820e1ffc94cb16a922f19a48a8a927e9e1b51d876d8268323c95acd861e530a.png" />
@@ -637,7 +637,7 @@ Data has a unit root and is non-stationary
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x782597d36590&gt;]
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x772634ebee50&gt;]
 </pre></div>
 </div>
 <img alt="../_images/556f7b716945ccf4cfe83e9e93b268ee7825925b38443de1948080750bbbfc43.png" src="../_images/556f7b716945ccf4cfe83e9e93b268ee7825925b38443de1948080750bbbfc43.png" />
@@ -706,7 +706,7 @@ Data has a unit root and is non-stationary
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x782597ff6c10&gt;]
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x772634fc6910&gt;]
 </pre></div>
 </div>
 <img alt="../_images/296bddca176f599cbdea7732be9265c5e1bd08813f62986043e90347b5a7c95d.png" src="../_images/296bddca176f599cbdea7732be9265c5e1bd08813f62986043e90347b5a7c95d.png" />
@@ -751,7 +751,7 @@ Data has a unit root and is non-stationary
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x782597c89150&gt;]
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x772634e130d0&gt;]
 </pre></div>
 </div>
 <img alt="../_images/d15f6127afd9d79fe647f307115bed92528c029658b7ec9af0a5ab3425177a1d.png" src="../_images/d15f6127afd9d79fe647f307115bed92528c029658b7ec9af0a5ab3425177a1d.png" />
@@ -792,7 +792,7 @@ Data has a unit root and is non-stationary
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x782597ba5c10&gt;]
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x772634d61f90&gt;]
 </pre></div>
 </div>
 <img alt="../_images/b75eb3f289fca4b34a7170270f907caa5e766bdfa2854214131231939ece2781.png" src="../_images/b75eb3f289fca4b34a7170270f907caa5e766bdfa2854214131231939ece2781.png" />
@@ -1012,7 +1012,7 @@ Data has no unit root and is stationary
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x7825970e7e10&gt;]
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;matplotlib.lines.Line2D at 0x77263403bf10&gt;]
 </pre></div>
 </div>
 <img alt="../_images/2c787d2c8ee851c81cfaa45f3b682e8aaffcca4f7eec25d08dd54f1a48df5503.png" src="../_images/2c787d2c8ee851c81cfaa45f3b682e8aaffcca4f7eec25d08dd54f1a48df5503.png" />
@@ -1035,20 +1035,6 @@ Data has no unit root and is stationary
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/opt/conda/lib/python3.11/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
-/opt/conda/lib/python3.11/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
-/opt/conda/lib/python3.11/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
-  self._init_dates(dates, freq)
-/opt/conda/lib/python3.11/site-packages/statsmodels/tsa/statespace/sarimax.py:978: UserWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
-  warn(&#39;Non-invertible starting MA parameters found.&#39;
-</pre></div>
-</div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/opt/conda/lib/python3.11/site-packages/statsmodels/base/model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
-  warnings.warn(&quot;Maximum Likelihood optimization failed to &quot;
-</pre></div>
-</div>
 <div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/opt/conda/lib/python3.11/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
   self._init_dates(dates, freq)
 /opt/conda/lib/python3.11/site-packages/statsmodels/tsa/base/tsa_model.py:473: ValueWarning: No frequency information was provided, so inferred frequency MS will be used.
@@ -1348,7 +1334,7 @@ By Dr.Yong Zhuang
 
   <p class="copyright">
     
-      © Copyright 2025.
+      © Copyright 2026.
       <br/>
     
   </p>
