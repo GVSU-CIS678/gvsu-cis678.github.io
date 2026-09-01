@@ -65,7 +65,7 @@ To run a sample Jupyter Notebook <i class="fa fa-code"></i>, select the rocket i
 
 | Week | Topic |
 | --- | --- |
-| 1. 08/31 | [Machine learning foundations and learning paradigms](assets/pdf/Introduction.pdf) |
+| 1. 08/31 | [🎬](https://youtu.be/s6tlKihr04E), [Machine learning foundations and learning paradigms](assets/pdf/Introduction.pdf) |
 | 2. 09/07 | **Labor Day Recess — No class** |
 | 3. 09/14 | Machine learning workflow, data preparation, generalization, and model evaluation |
 | 4. 09/21 | Probability, estimation, and statistical learning |
