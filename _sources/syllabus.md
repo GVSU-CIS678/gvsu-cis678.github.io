@@ -67,7 +67,7 @@ To run a sample Jupyter Notebook <i class="fa fa-code"></i>, select the rocket i
 | --- | --- |
 | 1. 08/31 | [🎬](https://youtu.be/s6tlKihr04E), [Machine learning foundations and learning paradigms](assets/pdf/Introduction.pdf) |
 | 2. 09/07 | **Labor Day Recess — No class** |
-| 3. 09/14 | [From-a-Problem-to-Generalization](assets/pdf/From-a-Problem-to-Generalization.pdf) |
+| 3. 09/14 | [From-a-Problem-to-Generalization](assets/pdf/From-a-Problem-to-Generalization.pdf), [From Data to an Honest Evaluation](assets/pdf/From-Data-to-an-Honest-Evaluation.pdf) |
 | 4. 09/21 | Probability, estimation, and statistical learning |
 | 5. 09/28 | Regression and classification methods |
 | 6. 10/05 | Decision trees and ensemble learning |
