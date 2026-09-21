@@ -68,13 +68,13 @@ To run a sample Jupyter Notebook <i class="fa fa-code"></i>, select the rocket i
 | 1. 08/31 | [🎬](https://youtu.be/s6tlKihr04E), [Machine learning foundations and learning paradigms](assets/pdf/Introduction.pdf) |
 | 2. 09/07 | **Labor Day Recess — No class** |
 | 3. 09/14 | [🎬](https://youtu.be/3MZXqFJ_3cg), [From-a-Problem-to-Generalization](assets/pdf/From-a-Problem-to-Generalization.pdf) \| [🎬](https://youtu.be/Vqa9D70OcWM), [From Data to an Honest Evaluation](assets/pdf/From-Data-to-an-Honest-Evaluation.pdf) |
-| 4. 09/21 | Probability, estimation, and statistical learning |
-| 5. 09/28 | Regression and classification methods |
+| 4. 09/21 | [Probability and Maximum Likelihood Estimation (MLE)](assets/pdf/4-1-MLE.pdf) \| [MAP and Bayesian Estimation](assets/pdf/4-2-MAP.pdf) |
+| 5. 09/28 | Genetic Programming(Guest Lecture) |
 | 6. 10/05 | Decision trees and ensemble learning |
 | 7. 10/12 | Similarity-based and kernel learning |
 | 8. 10/19 | **Midterm exam** |
 | 9. 10/26 | **Fall Break — No class** |
-| 10. 11/02 | Bayesian learning and probabilistic classification |
+| 10. 11/02 | Regression and classification methods, Bayesian learning and probabilistic classification |
 | 11. 11/09 | Unsupervised learning and dimensionality reduction |
 | 12. 11/16 | Neural networks and representation learning |
 | 13. 11/23 | Active, semi-supervised, genetic, and explanation-based learning |
