@@ -62,10 +62,10 @@ To execute the sample Jupyter Notebook code <i class="fa fa-code"></i>, click on
 
 | Week | Topic |
 | --- | --- |
-| 1. 08/31 | 🎬, [Machine learning foundations and learning paradigms](assets/pdf/Introduction.pdf) |
+| 1. 08/31 | [🎬](https://youtu.be/s6tlKihr04E), [Machine learning foundations and learning paradigms](assets/pdf/Introduction.pdf) |
 | 2. 09/07 | **Labor Day Recess — No class** |
-| 3. 09/14 | 🎬, [From-a-Problem-to-Generalization](assets/pdf/From-a-Problem-to-Generalization.pdf) \| 🎬, [From Data to an Honest Evaluation](assets/pdf/From-Data-to-an-Honest-Evaluation.pdf) |
-| 4. 09/21 | 🎬, [Probability and MLE](assets/pdf/4-1-MLE.pdf) \| 🎬, [MAP and Bayesian Estimation](assets/pdf/4-2-MAP.pdf) |
+| 3. 09/14 | [🎬](https://youtu.be/3MZXqFJ_3cg), [From-a-Problem-to-Generalization](assets/pdf/From-a-Problem-to-Generalization.pdf) \| [🎬](https://youtu.be/Vqa9D70OcWM), [From Data to an Honest Evaluation](assets/pdf/From-Data-to-an-Honest-Evaluation.pdf) |
+| 4. 09/21 | [🎬](https://youtu.be/tvpGMvSg-M4), [Probability and MLE](assets/pdf/4-1-MLE.pdf) \| [🎬](https://youtu.be/kczfxJYw5vY), [MAP and Bayesian Estimation](assets/pdf/4-2-MAP.pdf) |
 | 5. 09/28 | Genetic Programming(Guest Lecture) |
 | 6. 10/05 | Decision trees and ensemble learning |
 | 7. 10/12 | Similarity-based and kernel learning |
