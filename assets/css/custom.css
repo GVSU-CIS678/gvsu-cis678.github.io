@@ -1,0 +1,7 @@
+/* Hide page download button */
+a[aria-label*="Download" i],
+a[title*="Download" i],
+button[aria-label*="Download" i],
+button[title*="Download" i] {
+  display: none !important;
+}

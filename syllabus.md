@@ -1,0 +1,80 @@
+# CIS 678 Machine Learning
+
+Welcome to Machine Learning! Machine learning is a core area of artificial intelligence that enables computer systems to learn patterns from data and use those patterns to make predictions and decisions.
+
+In this course, we will study machine learning foundations, statistical and Bayesian learning, regression, classification, decision trees, ensemble methods, neural networks, genetic algorithms, explanation-based learning, reinforcement learning, and other learning frameworks. We will also examine current developments and research directions in machine learning.
+
+Throughout the semester, you will gain experience preparing data, training models, selecting appropriate evaluation methods, tuning model settings, and analyzing experimental results. Through programming assignments and a group project, you will apply established machine learning algorithms and software tools to real-world datasets.
+
+By the end of the course, you should have a strong foundation in machine learning and practical experience designing, implementing, comparing, and evaluating machine learning solutions. I look forward to working with you this semester!
+
+## Course Information
+
+**Instructor:** Dr. Yong Zhuang
+
+- <i class="fa fa-envelope"></i> **E-mail:** [yong.zhuang@gvsu.edu](mailto:yong.zhuang@gvsu.edu)
+- <i class="fa fa-building"></i> **Office:** MAK D-2-234
+- <i class="fa fa-building"></i> **Office Hours:** Monday, 1:00–3:00 p.m., MAK D-2-234, or by appointment
+- <i class="fa fa-book"></i> **Course Page:** [Blackboard](https://lms.gvsu.edu/) and [Course Website](https://gvsu-cis678.github.io)
+- <i class="fa fa-book-reader"></i> **Syllabus:** [View the syllabus here](assets/pdf/CIS-437-01-Zhuang.pdf)
+
+## Class Schedule
+
+**Section 01**
+
+- **Class Time:** Monday, 6:00–8:50 p.m.
+- **Delivery**: In person, synchronously through Zoom, or asynchronously through recorded sessions and assigned activities
+- **Room**: DeVos Center for Interprofessional Health, Room 507, or Zoom
+- **Midterm Exam:** Monday, October 19, 6:00–7:50 p.m.
+- **Final Exam:** Monday, December 14, 6:00–7:50 p.m.
+
+**Section 02**
+
+- **Class Format:** Online asynchronous
+- **Delivery**: Recorded class sessions and assigned online activities
+- **Room**: DeVos Center for Interprofessional Health, Room 507, or Zoom
+- **Midterm Exam:** Monday, October 19, 6:00–7:50 p.m.
+- **Final Exam:** Monday, December 14, 6:00–7:50 p.m.
+
+Zoom: [Join the live class](https://gvsu-edu.zoom.us/j/3966686420?pwd=WGxpc0N4YWcvOU9aWGxWZGYxbXZUdz09)
+
+All students are responsible for the same learning outcomes, assignments, project requirements, and deadlines, regardless of their participation format.
+
+## Recommended References
+
+There is no required textbook for this course. The following books are recommended as additional references:
+
+- Aurélien Géron, Hands-On Machine Learning with Scikit-Learn and PyTorch, O’Reilly Media, 2025.
+- Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani, and Jonathan Taylor, An Introduction to Statistical Learning with Applications in Python, 2023.
+- Tom Mitchell, Machine Learning, McGraw-Hill, 1997.
+- Christopher Bishop, Pattern Recognition and Machine Learning, Springer, 2006.
+- Kevin P. Murphy, Machine Learning: A Probabilistic Perspective, MIT Press, 2012.
+
+Required slides, readings, notebooks, and other resources will be posted on the course website and Blackboard.
+
+## Tentative Schedule
+
+- September 6–7, Labor Day Recess: No classes.
+- October 26–27, Fall Break: No classes.
+- November 25–29, Thanksgiving Recess: No classes.
+
+To execute the sample Jupyter Notebook code <i class="fa fa-code"></i>, click on the rocket icon <i class="fa fa-rocket" aria-hidden="true"></i> at the top of the page, which will open the notebook in Google Colab for interactive use.
+
+| Week | Topic |
+| --- | --- |
+| 1. 08/31 | 🎬, [Machine learning foundations and learning paradigms](assets/pdf/Introduction.pdf) |
+| 2. 09/07 | **Labor Day Recess — No class** |
+| 3. 09/14 | 🎬, [From-a-Problem-to-Generalization](assets/pdf/From-a-Problem-to-Generalization.pdf) \| 🎬, [From Data to an Honest Evaluation](assets/pdf/From-Data-to-an-Honest-Evaluation.pdf) |
+| 4. 09/21 | 🎬, [Probability and MLE](assets/pdf/4-1-MLE.pdf) \| 🎬, [MAP and Bayesian Estimation](assets/pdf/4-2-MAP.pdf) |
+| 5. 09/28 | Genetic Programming(Guest Lecture) |
+| 6. 10/05 | Decision trees and ensemble learning |
+| 7. 10/12 | Similarity-based and kernel learning |
+| 8. 10/19 | **Midterm exam** |
+| 9. 10/26 | **Fall Break — No class** |
+| 10. 11/02 | Regression and classification methods, Bayesian learning and probabilistic classification |
+| 11. 11/09 | Unsupervised learning and dimensionality reduction |
+| 12. 11/16 | Neural networks and representation learning |
+| 13. 11/23 | Active, semi-supervised, genetic, and explanation-based learning |
+| 14. 11/30 | Reinforcement learning |
+| 15. 12/07 | Project presentations and course review |
+| 16. 12/14 | **Final exam** |
