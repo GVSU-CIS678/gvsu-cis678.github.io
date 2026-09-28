@@ -16,7 +16,7 @@ By the end of the course, you should have a strong foundation in machine learnin
 - <i class="fa fa-building"></i> **Office:** MAK D-2-234
 - <i class="fa fa-building"></i> **Office Hours:** Monday, 1:00–3:00 p.m., MAK D-2-234, or by appointment
 - <i class="fa fa-book"></i> **Course Page:** [Blackboard](https://lms.gvsu.edu/) and [Course Website](https://gvsu-cis678.github.io)
-- <i class="fa fa-book-reader"></i> **Syllabus:** [View the syllabus here](assets/pdf/CIS-437-01-Zhuang.pdf)
+- <i class="fa fa-book-reader"></i> **Syllabus:** [View the syllabus here](assets/pdf/CIS-678-Zhuang.pdf)
 
 ## Class Schedule
 
