@@ -16,7 +16,7 @@ By the end of the course, you should have a strong foundation in machine learnin
 - <i class="fa fa-building"></i> **Office:** MAK D-2-234
 - <i class="fa fa-building"></i> **Office Hours:** Monday, 1:00–3:00 p.m., MAK D-2-234, or by appointment
 - <i class="fa fa-book"></i> **Course Page:** [Blackboard](https://lms.gvsu.edu/) and [Course Website](https://gvsu-cis678.github.io)
-- <i class="fa fa-book-reader"></i> **Syllabus:** [View the syllabus here](assets/pdf/CIS-437-01-Zhuang.pdf)
+- <i class="fa fa-book-reader"></i> **Syllabus:** [View the syllabus here](assets/pdf/CIS-678-Zhuang.pdf)
 
 ## Class Schedule
 
@@ -66,7 +66,7 @@ To execute the sample Jupyter Notebook code <i class="fa fa-code"></i>, click on
 | 2. 09/07 | **Labor Day Recess — No class** |
 | 3. 09/14 | [🎬](https://youtu.be/3MZXqFJ_3cg), [From-a-Problem-to-Generalization](assets/pdf/From-a-Problem-to-Generalization.pdf) \| [🎬](https://youtu.be/Vqa9D70OcWM), [From Data to an Honest Evaluation](assets/pdf/From-Data-to-an-Honest-Evaluation.pdf) |
 | 4. 09/21 | [🎬](https://youtu.be/tvpGMvSg-M4), [Probability and MLE](assets/pdf/4-1-MLE.pdf) \| [🎬](https://youtu.be/kczfxJYw5vY), [MAP and Bayesian Estimation](assets/pdf/4-2-MAP.pdf) |
-| 5. 09/28 | Genetic Programming(Guest Lecture) |
+| 5. 09/28 | Genetic Programming(Guest Lecture) \| [Naive Bayes](assets/pdf/5-2-Bayes.pdf) |
 | 6. 10/05 | Decision trees and ensemble learning |
 | 7. 10/12 | Similarity-based and kernel learning |
 | 8. 10/19 | **Midterm exam** |
