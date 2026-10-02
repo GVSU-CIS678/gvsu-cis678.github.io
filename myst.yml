@@ -30,5 +30,5 @@ project:
 site:
   template: book-theme
   options:
-    favicon: https://www.gvsu.edu/cms5/build/assets/markleft_white-eba362e3.svg    
+    favicon: ./assets/img/logo.png  
     logo: ./assets/img/logo.jpg

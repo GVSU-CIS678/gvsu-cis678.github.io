@@ -4,5 +4,5 @@
 
 
 ```{div} full-width
-- [spam ham dataset](assignments/spam_ham_dataset.csv)
+- [spam ham dataset](assignments/emails.csv)
 ```
