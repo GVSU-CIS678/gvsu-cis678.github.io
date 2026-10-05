@@ -67,7 +67,7 @@ To execute the sample Jupyter Notebook code <i class="fa fa-code"></i>, click on
 | 3. 09/14 | [🎬](https://youtu.be/3MZXqFJ_3cg), [From-a-Problem-to-Generalization](assets/pdf/From-a-Problem-to-Generalization.pdf) \| [🎬](https://youtu.be/Vqa9D70OcWM), [From Data to an Honest Evaluation](assets/pdf/From-Data-to-an-Honest-Evaluation.pdf) |
 | 4. 09/21 | [🎬](https://youtu.be/tvpGMvSg-M4), [Probability and MLE](assets/pdf/4-1-MLE.pdf) \| [🎬](https://youtu.be/kczfxJYw5vY), [MAP and Bayesian Estimation](assets/pdf/4-2-MAP.pdf) |
 | 5. 09/28 | [🎬](https://youtu.be/qk5rwt5cCsU), [Genetic Programming(Guest Lecture)](assets/pdf/ec_guest_lecture.pdf) \| [🎬](https://youtu.be/NneN4PIb7iw), [Naive Bayes](assets/pdf/5-2-Bayes.pdf) |
-| 6. 10/05 | Decision trees and ensemble learning |
+| 6. 10/05 | [Decision Trees](assets/pdf/6-1-Decision-Trees.pdf) |
 | 7. 10/12 | Similarity-based and kernel learning |
 | 8. 10/19 | **Midterm exam** |
 | 9. 10/26 | **Fall Break — No class** |
