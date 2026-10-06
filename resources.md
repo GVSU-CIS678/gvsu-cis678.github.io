@@ -4,5 +4,7 @@
 
 
 ```{div} full-width
-- [spam ham dataset](assignments/emails.csv)
+- Assignment 1 Dataset [Spam–ham email dataset](assignments/emails.csv): This dataset contains email messages labeled as either **spam** or **ham** (legitimate email).
 ```
+
+
