@@ -26,6 +26,12 @@ project:
         - file: samples/python.ipynb
         - file: samples/numpy.ipynb
         - file: samples/pandas.ipynb
+    - title: Term Project
+      children:
+        - file: project/project-overview.md
+        - file: project/project-proposal.md
+        - file: project/project-progress-report.md
+        - file: project/project-final-report.md 
     
 site:
   template: book-theme
