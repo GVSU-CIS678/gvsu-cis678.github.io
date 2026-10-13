@@ -1,4 +1,4 @@
-# How to Access and Submit the Assignment
+# Assignment Guidelines
 
 Please follow the steps below to access the assignment notebook, complete it in Google Colab, and turn it in.
 
