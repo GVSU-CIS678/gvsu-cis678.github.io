@@ -68,7 +68,7 @@ To execute the sample Jupyter Notebook code <i class="fa fa-code"></i>, click on
 | 4. 09/21 | [🎬](https://youtu.be/tvpGMvSg-M4), [Probability and MLE](assets/pdf/4-1-MLE.pdf) \| [🎬](https://youtu.be/kczfxJYw5vY), [MAP and Bayesian Estimation](assets/pdf/4-2-MAP.pdf) |
 | 5. 09/28 | [🎬](https://youtu.be/qk5rwt5cCsU), [Genetic Programming(Guest Lecture)](assets/pdf/ec_guest_lecture.pdf) \| [🎬](https://youtu.be/NneN4PIb7iw), [Naive Bayes](assets/pdf/5-2-Bayes.pdf) |
 | 6. 10/05 | [🎬](https://youtu.be/-zInedSuqig), [Decision Trees](assets/pdf/6-1-Decision-Trees.pdf) |
-| 7. 10/12 | [Boosing](assets/pdf/7-1-Boosting.pdf) \| [Ensemble Methods](assets/pdf/7-2-Ensemble-Methods.pdf) |
+| 7. 10/12 | [🎬](https://youtu.be/JPtdUaq0gIM), [Boosing](assets/pdf/7-1-Boosting.pdf) \| [🎬](https://youtu.be/Xnf7CFMC4iY), [Ensemble Methods](assets/pdf/7-2-Ensemble-Methods.pdf) |
 | 8. 10/19 | **Midterm exam** |
 | 9. 10/26 | **Fall Break — No class** |
 | 10. 11/02 | Regression and classification methods, Bayesian learning and probabilistic classification |
