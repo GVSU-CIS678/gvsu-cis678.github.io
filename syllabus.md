@@ -71,7 +71,7 @@ To execute the sample Jupyter Notebook code <i class="fa fa-code"></i>, click on
 | 7. 10/12 | [🎬](https://youtu.be/JPtdUaq0gIM), [Boosing](assets/pdf/7-1-Boosting.pdf) \| [🎬](https://youtu.be/Xnf7CFMC4iY), [Ensemble Methods](assets/pdf/7-2-Ensemble-Methods.pdf) |
 | 8. 10/19 | **Midterm exam** |
 | 9. 10/26 | **Fall Break — No class** |
-| 10. 11/02 | Regression and classification methods, Bayesian learning and probabilistic classification |
+| 10. 11/02 | [Linear Regression and Perceptron](assets/pdf/8-1-Linear.pdf), [Logistic Regression](assets/pdf/8-2-Logistic.pdf) |
 | 11. 11/09 | Unsupervised learning and dimensionality reduction |
 | 12. 11/16 | Neural networks and representation learning |
 | 13. 11/23 | Active, semi-supervised, genetic, and explanation-based learning |
