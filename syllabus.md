@@ -60,21 +60,21 @@ Required slides, readings, notebooks, and other resources will be posted on the 
 
 To execute the sample Jupyter Notebook code <i class="fa fa-code"></i>, click on the rocket icon <i class="fa fa-rocket" aria-hidden="true"></i> at the top of the page, which will open the notebook in Google Colab for interactive use.
 
-| Week | Topic |
-| --- | --- |
-| 1. 08/31 | [🎬](https://youtu.be/s6tlKihr04E), [Machine learning foundations and learning paradigms](assets/pdf/Introduction.pdf) |
-| 2. 09/07 | **Labor Day Recess — No class** |
-| 3. 09/14 | [🎬](https://youtu.be/3MZXqFJ_3cg), [From-a-Problem-to-Generalization](assets/pdf/From-a-Problem-to-Generalization.pdf) \| [🎬](https://youtu.be/Vqa9D70OcWM), [From Data to an Honest Evaluation](assets/pdf/From-Data-to-an-Honest-Evaluation.pdf) |
-| 4. 09/21 | [🎬](https://youtu.be/tvpGMvSg-M4), [Probability and MLE](assets/pdf/4-1-MLE.pdf) \| [🎬](https://youtu.be/kczfxJYw5vY), [MAP and Bayesian Estimation](assets/pdf/4-2-MAP.pdf) |
-| 5. 09/28 | [🎬](https://youtu.be/qk5rwt5cCsU), [Genetic Programming(Guest Lecture)](assets/pdf/ec_guest_lecture.pdf) \| [🎬](https://youtu.be/NneN4PIb7iw), [Naive Bayes](assets/pdf/5-2-Bayes.pdf) |
-| 6. 10/05 | [🎬](https://youtu.be/-zInedSuqig), [Decision Trees](assets/pdf/6-1-Decision-Trees.pdf) |
-| 7. 10/12 | [🎬](https://youtu.be/JPtdUaq0gIM), [Boosing](assets/pdf/7-1-Boosting.pdf) \| [🎬](https://youtu.be/Xnf7CFMC4iY), [Ensemble Methods](assets/pdf/7-2-Ensemble-Methods.pdf) |
-| 8. 10/19 | **Midterm exam** |
-| 9. 10/26 | **Fall Break — No class** |
-| 10. 11/02 | [🎬](https://youtu.be/quKQ_QgpS3w), [Linear Regression and Perceptron](assets/pdf/10-1-Linear%20.pdf) \| [🎬](https://youtu.be/GgyK_ge5WDk), [Logistic Regression](assets/pdf/10-2-Logistic.pdf) |
-| 11. 11/09 | Unsupervised learning and dimensionality reduction |
-| 12. 11/16 | Neural networks and representation learning |
-| 13. 11/23 | Active, semi-supervised, genetic, and explanation-based learning |
-| 14. 11/30 | Reinforcement learning |
-| 15. 12/07 | Project presentations and course review |
-| 16. 12/14 | **Final exam** |
+| Week      | Topic                                                                                                                                                                                                                                              |
+| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1. 08/31  | [🎬](https://youtu.be/s6tlKihr04E), [Machine learning foundations and learning paradigms](assets/pdf/Introduction.pdf)                                                                                                                              |
+| 2. 09/07  | **Labor Day Recess — No class**                                                                                                                                                                                                                    |
+| 3. 09/14  | [🎬](https://youtu.be/3MZXqFJ_3cg), [From-a-Problem-to-Generalization](assets/pdf/From-a-Problem-to-Generalization.pdf) \| [🎬](https://youtu.be/Vqa9D70OcWM), [From Data to an Honest Evaluation](assets/pdf/From-Data-to-an-Honest-Evaluation.pdf) |
+| 4. 09/21  | [🎬](https://youtu.be/tvpGMvSg-M4), [Probability and MLE](assets/pdf/4-1-MLE.pdf) \| [🎬](https://youtu.be/kczfxJYw5vY), [MAP and Bayesian Estimation](assets/pdf/4-2-MAP.pdf)                                                                       |
+| 5. 09/28  | [🎬](https://youtu.be/qk5rwt5cCsU), [Genetic Programming(Guest Lecture)](assets/pdf/ec_guest_lecture.pdf) \| [🎬](https://youtu.be/NneN4PIb7iw), [Naive Bayes](assets/pdf/5-2-Bayes.pdf)                                                             |
+| 6. 10/05  | [🎬](https://youtu.be/-zInedSuqig), [Decision Trees](assets/pdf/6-1-Decision-Trees.pdf)                                                                                                                                                             |
+| 7. 10/12  | [🎬](https://youtu.be/JPtdUaq0gIM), [Boosing](assets/pdf/7-1-Boosting.pdf) \| [🎬](https://youtu.be/Xnf7CFMC4iY), [Ensemble Methods](assets/pdf/7-2-Ensemble-Methods.pdf)                                                                            |
+| 8. 10/19  | **Midterm exam**                                                                                                                                                                                                                                   |
+| 9. 10/26  | **Fall Break — No class**                                                                                                                                                                                                                          |
+| 10. 11/02 | [🎬](https://youtu.be/quKQ_QgpS3w), [Linear Regression and Perceptron](assets/pdf/10-1-Linear%20.pdf) \| [🎬](https://youtu.be/GgyK_ge5WDk), [Logistic Regression](assets/pdf/10-2-Logistic.pdf)                                                     |
+| 11. 11/09 | [Shallow Neural Network](assets/pdf/11-1-network.pdf) \| [Clustering](assets/pdf/11-2-clustering.pdf) and                                                                                                                                          |
+| 12. 11/16 | CNN, RNN,                                                                                                                                                                                                                                          |
+| 13. 11/23 | Active, semi-supervised, genetic, and explanation-based learning                                                                                                                                                                                   |
+| 14. 11/30 | Reinforcement learning                                                                                                                                                                                                                             |
+| 15. 12/07 | Project presentations and course review                                                                                                                                                                                                            |
+| 16. 12/14 | **Final exam**                                                                                                                                                                                                                                     |
